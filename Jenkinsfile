@@ -6,5 +6,5 @@ pipeline {
         sh 'ruby --version'
       }
     }
- }
+  }
 }
