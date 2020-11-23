@@ -15,19 +15,19 @@ pipeline {
         }
       }
     }
+  }
     post {
-      always {
-        echo 'This line should be run always'
-      }
-      success {
-        echo 'The build has succeeded!'
-      }
-      fail {
-        echo 'The build has failed...'
-      }
-      changed {
-        echo 'The pipeline status has changed'
-      }
+    always {
+      echo 'This line should be run always'
+    }
+    success {
+      echo 'The build has succeeded!'
+    }
+    fail {
+      echo 'The build has failed...'
+    }
+    changed {
+      echo 'The pipeline status has changed'
     }
   }
 }
