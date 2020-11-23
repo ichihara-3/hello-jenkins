@@ -20,7 +20,7 @@ pipeline {
         echo 'This line should be run always'
       }
       success {
-        echo 'The build has succeeded!
+        echo 'The build has succeeded!'
       }
       fail {
         echo 'The build has failed...'
